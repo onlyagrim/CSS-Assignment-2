@@ -1,0 +1,188 @@
+#body{
+    background-color: black;
+}
+.main{
+    display: block;  
+    background-image: url(./bodybackground1.jpg);
+    background-size: cover;
+}
+
+/* topsection */
+.inlineblockdiv{
+    display: inline-block;
+}
+.redborder{
+    border: 7px solid red;
+}
+.blackbackground{
+    background-color: black;
+}
+.bold{
+    font: bold;
+}
+.bolder{
+    font: bolder;
+}
+.whitetext{
+    color: white;
+}
+.italic{
+    font-style: italic;
+}
+.curvecorner{
+    border-radius: 30px;
+}
+.xlfont{
+    font-size: x-large;
+}
+#h1block{
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bolder;
+}
+#h2block{
+    /* margin-top: 150px; */
+    margin-left: -45px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+#h3block{
+    justify-self: end;
+padding-right: 50px;
+padding-left: 50px;
+font-weight: bold;
+
+}
+#topdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+/* centersection */
+#centerdiv{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 100px;
+    margin: 3%;
+}
+
+#cbox1{
+    display: inline-block;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    border: 7px solid gray;
+    background-color: rgb(69, 160, 160);
+    align-self: center;
+}
+#cpara1{
+    padding-top: 35px;
+}
+#cpara2{
+    padding: 3%;
+}
+#tophr{
+    width: 93%;
+}
+#midhr{
+    width: 97%;
+}
+#cpara3{
+    padding-top: 3%;
+}
+.hfontweight{
+    font-weight: bolder;
+}
+.underline{
+    text-decoration-line: underline;
+}
+.textcenter{
+    text-align: center;
+}
+#cbox2{
+    /* padding: 10px; */
+    border: 7px dashed red;
+    height: 750px;
+    width: 500px;
+}
+.redcolor{
+    color: red;
+}
+.center{
+    text-align: center;
+}
+.xxlfont{
+    font-size: xx-large;
+}
+
+/* menublock */
+#menublock{
+    width: 500px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 550px;
+}
+/* bottom section */
+#btopdiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.cyanbackground{
+    background-color: cyan;
+}
+.blackborder{
+    border: 2px solid black;
+}
+.bottomsectionpadding{
+    padding: 10px;
+}
+.bottomsectionhr{
+    margin-left: -10px;
+    width: 106%;
+}
+.bottomboxes{
+    width: 300px;
+}
+
+#bbottomdiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.bottomlists{
+    justify-self: center;
+    margin-left: 20%;
+}
+#starters{
+    background-image: url(./starters.jpg);
+    background-size: cover;
+    
+}
+#southindian{
+    background-image: url(./southindian.jpg);
+    background-size: cover;
+}
+#riceandsalad{
+    background-image: url(./RiceandSalad.jpg);
+    background-size: cover;
+}
+#indiankitchen{ 
+    background-image: url(./indiankitchen.jpg);
+    background-size: cover;
+}
+#tandooribread{
+    background-image: url(./tandooribread.jpg);
+    background-size: cover;
+}
+#beveragesanddesserts{
+    background-image: url(./beverage2.jpg);
+    background-size: cover;
+}
+.bottomtextcolor{
+    color: white;
+}
